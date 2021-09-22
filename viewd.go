@@ -5,9 +5,9 @@ package main
 //
 
 import "time"
-import "viewservice"
 import "os"
 import "fmt"
+import "viewservice"
 
 func main() {
 	if len(os.Args) != 2 {
