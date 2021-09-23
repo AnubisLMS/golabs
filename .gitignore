@@ -5,3 +5,7 @@ mrtmp.*
 /mapreduce/x.txt
 /pbservice/x.txt
 /kvpaxos/x.txt
+diff.out
+.idea
+.vscode
+.theia
