@@ -2,9 +2,9 @@ package raftkv
 
 import (
 	"encoding/gob"
-	"labrpc"
+	"golabs/labrpc"
+	"golabs/raft"
 	"log"
-	"raft"
 	"sync"
 )
 
@@ -16,7 +16,6 @@ func DPrintf(format string, a ...interface{}) (n int, err error) {
 	}
 	return
 }
-
 
 type Op struct {
 	// Your definitions here.
@@ -34,7 +33,6 @@ type RaftKV struct {
 
 	// Your definitions here.
 }
-
 
 func (kv *RaftKV) Get(args *GetArgs, reply *GetReply) {
 	// Your code here.

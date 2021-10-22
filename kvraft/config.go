@@ -1,17 +1,19 @@
 package raftkv
 
-import "labrpc"
-import "testing"
-import "os"
+import (
+	"golabs/labrpc"
+	"os"
+	"testing"
 
-// import "log"
-import crand "crypto/rand"
-import "math/rand"
-import "encoding/base64"
-import "sync"
-import "runtime"
-import "raft"
-import "fmt"
+	// import "log"
+	crand "crypto/rand"
+	"encoding/base64"
+	"fmt"
+	"golabs/raft"
+	"math/rand"
+	"runtime"
+	"sync"
+)
 
 func randstring(n int) string {
 	b := make([]byte, 2*n)

@@ -9,7 +9,7 @@ package simplepb
 import (
 	"sync"
 
-	"labrpc"
+	"golabs/labrpc"
 )
 
 // the 3 possible server status
